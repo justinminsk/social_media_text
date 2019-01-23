@@ -1,0 +1,5 @@
+from github import Github
+
+CLIENT_ID = "2dab67396de1326b8a94"
+CLIENT_SECRET = "c508cd4c2143604b17099abd4588b10566b32f3f"
+
