@@ -1,0 +1,32 @@
+Question 1:
+Nodes: 2757
+Edges: 2756
+
+Question 2:
+Nodes: 2757
+Edges: 5061
+
+Question 3:
+Degree Centrality
+[('angusshire(user)', 0.3408348457350272), ('CamDavidsonPilon(user)', 0.04319419237749546),
+ ('zygmuntz(user)', 0.0279491833030853), ('rohithadassanayake(user)', 0.02722323049001815),
+  ('trietptm(user)', 0.02323049001814882), ('josephmisiti(user)', 0.01778584392014519),
+   ('rossant(user)', 0.015245009074410162), ('mcanthony(user)', 0.012704174228675135),
+    ('chdoig(user)', 0.011252268602540834), ('JT5D(user)', 0.010889292196007259)]
+
+Betweenness Centrality
+[('angusshire(user)', 0.19600947582848602), ('CamDavidsonPilon(user)', 0.008849107424591548),
+ ('rohithadassanayake(user)', 0.005507346800901836), ('trietptm(user)', 0.005047050887487833),
+  ('zygmuntz(user)', 0.004356575255313221), ('rossant(user)', 0.0043323400074139085),
+   ('josephmisiti(user)', 0.00408731404642314), ('jadianes(user)', 0.0031079380928919677),
+    ('JT5D(user)', 0.0025611104719371683), ('chdoig(user)', 0.00245351559309643)]
+
+Closeness Centrality
+[('angusshire(user)', 0.3504117053393916), ('trietptm(user)', 0.2180802146857855),
+ ('rossant(user)', 0.2158360963428226), ('rohithadassanayake(user)', 0.21433942268205122),
+  ('josephmisiti(user)', 0.21309507189724977), ('mcanthony(user)', 0.21309507189724977),
+   ('JT5D(user)', 0.21270916991989144), ('andrewiiird(user)', 0.21201805709343693),
+    ('esafak(user)', 0.2109518743350648), ('eneskemalergin(user)', 0.21080043723934686)]
+
+Question 4:
+
