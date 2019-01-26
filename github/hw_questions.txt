@@ -29,4 +29,32 @@ Closeness Centrality
     ('esafak(user)', 0.2109518743350648), ('eneskemalergin(user)', 0.21080043723934686)]
 
 Question 4:
+The users angusshire, rohithadassanayake, mcanthony, and JT5D appear in both the 3rd edition and the 2nd edition. The user angusshire seems
+to have a lot of centrality in both editions. 2nd edition has more followers and edges then the 3rd edition. 
 
+
+3rd edition:
+Number of nodes: 1177
+Number of edges: 1176
+Number of nodes: 1177
+Number of edges: 2432
+Degree Centrality
+[('angusshire(user)', 0.2927659574468085), ('kennethreitz(user)', 0.1497872340425532),
+ ('ptwobrussell(user)', 0.1097872340425532), ('VagrantStory(user)', 0.06382978723404255),
+  ('trietptm(user)', 0.04085106382978723), ('rohithadassanayake(user)', 0.03489361702127659),
+   ('hammer(user)', 0.023829787234042554), ('JT5D(user)', 0.02297872340425532),
+    ('mcanthony(user)', 0.020425531914893616), ('jakubroztocil(user)', 0.01957446808510638)]
+
+Betweenness Centrality
+[('kennethreitz(user)', 0.00048198557396063644), ('hammer(user)', 0.00024227892759191464),
+ ('miku(user)', 0.00017446566868437906), ('acdha(user)', 0.00015576860342890282),
+  ('mcroydon(user)', 0.00011762483290991032), ('tswicegood(user)', 7.80504307272222e-05),
+   ('JT5D(user)', 7.074317058731136e-05), ('bigsnarfdude(user)', 5.914742041459212e-05),
+    ('cmlh(user)', 5.485277948941004e-05), ('gawbul(user)', 5.2205186447094464e-05)]
+
+Closeness Centrality
+[('kennethreitz(user)', 0.15575531914893617), ('ptwobrussell(user)', 0.10629668204136289),
+ ('acdha(user)', 0.09095201118186054), ('hoffmann(user)', 0.09048024316109422),
+  ('katychuang(user)', 0.06785636195441931), ('japerk(user)', 0.022664199814986127),
+   ('dgryski(user)', 0.01912510638297872), ('hammer(user)', 0.018912529550827423),
+    ('jakubroztocil(user)', 0.017507598784194528), ('isnowfy(user)', 0.015638297872340425)]
