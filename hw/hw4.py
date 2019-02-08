@@ -43,7 +43,7 @@ tweets_df = pd.DataFrame({k:v for k, v in flatten(kv)} for kv in tweets.tweets)
 
 # print(tweets_df.columns.tolist())
 
-df = pd.DataFrame({"user_id": tweets_df.id_str, "date": tweets_df.created_at, "text": tweets_df.text,
+df = pd.DataFrame({"user_id": tweets_df.id_str, "date_col": tweets_df.created_at, "text": tweets_df.text,
                      "favorite_count": tweets_df.favorite_count, "retweet_count": tweets_df.retweet_count,
                      "lang": tweets_df.lang})
 
@@ -68,7 +68,7 @@ df = df.drop(["lang"], axis=1)
 # See if I need to convert some columns
 # print(df.dtypes)
 
-df.date = pd.to_datetime(df.date)
+df.date_col = pd.to_datetime(df.date_col)
 
 # Lower case text
 df.text = df.text.str.lower()
