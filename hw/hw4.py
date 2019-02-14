@@ -14,7 +14,7 @@ from sklearn.externals import joblib
 
 logging.basicConfig(filename='model.txt', filemode='w', format='%(asctime)s - %(message)s', level=logging.INFO)
 
-"""
+
 # https://stackoverflow.com/questions/51417970/list-of-dictionaries-to-dataframe
 def flatten(kv, prefix=[]):
     for k, v in kv.items():
@@ -131,7 +131,7 @@ end_df = end_df.drop(["tweets_col"], axis=1)
 # CSV's are gross for loading and saving
 fastparquet.write("processed_tweets_2.parquet", end_df)
 df.to_csv("processed_tweets.csv")
-"""
+
 df = pd.read_parquet("processed_tweets_2.parquet")
 
 # might look into this more seems like some tweets are not being processed
